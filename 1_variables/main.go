@@ -7,6 +7,12 @@ import (
 
 var name = "Global variable"
 
+var (
+	config string
+	isHead int
+	gender bool = true
+)
+
 const age = 4
 
 func main() {
